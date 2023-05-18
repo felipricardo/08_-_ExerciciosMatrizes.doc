@@ -31,5 +31,4 @@ e.Qual o custo total de cada armazém
 a.A quantidade de elementos pares
 
 b.A soma dos elementos ímpares
-
 c.A média de todos os elementos
