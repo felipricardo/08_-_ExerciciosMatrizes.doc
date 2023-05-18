@@ -4,11 +4,9 @@ Exercícios Matrizes
 
 2)Faça um programa que receba as vendas semanais (de um mês) de cinco vendedores de uma loja e armazene essas vendas em uma matriz. Calcule e mostre:
 
-a.O total de vendas do mês de cada vendedor
-
-b.O total de vendas de cada semana (todos os vendedores juntos)
-
-c.O total de vendas do mês
+a)O total de vendas do mês de cada vendedor
+b)O total de vendas de cada semana (todos os vendedores juntos)
+c)O total de vendas do mês
 
 3)Faça um programa que receba o estoque atual de três produtos que estão armazenados em quatro armazéns e coloque esses dados em uma matriz 5x3. Sendo que a última linha da matriz contém o custo de cada produto, calcule e mostre:
 
