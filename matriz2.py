@@ -1,4 +1,4 @@
-"""Faça um programa em python que receba as vendas semanais (de um mês) de cinco vendedores de uma loja e armazene essas vendas em uma matriz. Calcule e mostre:
+""" Faça um programa em python que receba as vendas semanais (de um mês) de cinco vendedores de uma loja e armazene essas vendas em uma matriz. Calcule e mostre:
 a. O total de vendas do mês de cada vendedor
 b. O total de vendas de cada semana (todos os vendedores juntos)
 c .O total de vendas do mês """
