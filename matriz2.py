@@ -11,20 +11,20 @@ for i in range(5):
     print(f"Vendedor {i+1}")
     for j in range(4):  # Assume-se um mês com 4 semanas
         venda_semana = float(input(f"Vendas semana {j+1}: "))
-        vendas[i].append(venda_semana)
+        vendas[i] = vendas[i] + [venda_semana]
 
 # Calcular os totais
-total_vendas_vendedor = []
-total_vendas_semana = [0] * len(vendas[0])
+total_vendas_vendedor = [0] * 5
+total_vendas_semana = [0] * 4
 total_vendas_mes = 0
 
 for i in range(5):
     total_vendedor = 0
     for j in range(4):
-        total_vendedor += vendas[i][j]
-        total_vendas_semana[j] += vendas[i][j]
-        total_vendas_mes += vendas[i][j]
-    total_vendas_vendedor.append(total_vendedor)
+        total_vendedor = total_vendedor + vendas[i][j]
+        total_vendas_semana[j] = total_vendas_semana[j] + vendas[i][j]
+        total_vendas_mes = total_vendas_mes + vendas[i][j]
+    total_vendas_vendedor[i] = total_vendedor
 
 # Mostrar os resultados
 print("\nTotal de vendas do mês de cada vendedor:")
